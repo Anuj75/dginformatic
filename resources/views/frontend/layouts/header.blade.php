@@ -66,6 +66,7 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li> <a href="{{url('/home')}} " class="active">Home</a></li>
+                          
                           <li><a href="{{url('/service')}}">Services</a></li>
                           
                           <li class="has-sub">
