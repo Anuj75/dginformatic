@@ -19,7 +19,7 @@
               <h2>Welcome to <span style="color: rgb(1, 8, 49); ">DG Informatic</span></h2>
               <p>This is an DG Informatic we are providing IT Services & IT Courses  dginformatic.com In this Website provide all content about DG Informatics services and courses </p>
               <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">More Information...</a></div>
+                  <div class="scroll-to-section"><a href="#contact">More Information....</a></div>
               </div>
           </div>
               </div>
