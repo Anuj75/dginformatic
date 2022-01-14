@@ -101,7 +101,7 @@
         </div>
         <div class="col-lg-4">
           <div class="services-form">
-            <h4>Enquiry Form </h4>
+            <h4>Enquiry for Services </h4>
             <div class="forum">
               
                 <input class="field"name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
@@ -114,7 +114,7 @@
             </div>
             <div class="forum">
               <fieldset>
-                <input class="field"name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                <input class="field"name="services" type="text" id="subject" placeholder="services...*" required="">
              
             </div>
             <div class="forum" id="form-msg">
@@ -133,15 +133,11 @@
             <div class="col-lg-6">
               <div class="meeting-item">
                 <div class="thumb">
-                  <div class="price">
-                    <span>$22.00</span>
-                  </div>
+                 
                   <a href="meeting-details.html"><img src="{{url('frontend/images/graphics.jpg')}}" alt="New Lecturer Meeting"></a>
                 </div>
                 <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>10</span></h6>
-                  </div>
+                 
                   <a href="meeting-details.html"><h4>Graphics Designing </h4></a>
                   <p>Adobe Xd UI/UX Design <br>Logo Design<br>Brochure Design</p>
                 </div>
@@ -150,15 +146,11 @@
             <div class="col-lg-6">
               <div class="meeting-item">
                 <div class="thumb">
-                  <div class="price">
-                    <span>$36.00</span>
-                  </div>
+                  
                   <a href="meeting-details.html"><img src="{{url('frontend/images/webdesign.jpg')}}" alt="Online Teaching"></a>
                 </div>
                 <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>24</span></h6>
-                  </div>
+                
                   <a href="meeting-details.html"><h4>Web Designing & Development</h4></a>
                   <p>Website Maintenance<br>Responsive Web Design<br>Front-end Development<br>Back-end Development</p>
                 </div>
@@ -167,15 +159,11 @@
             <div class="col-lg-6">
               <div class="meeting-item">
                 <div class="thumb">
-                  <div class="price">
-                    <span>$14.00</span>
-                  </div>
+                  
                   <a href="meeting-details.html"><img src="{{url('frontend/images/seo.jpg')}}" alt="Higher Education"></a>
                 </div>
                 <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>26</span></h6>
-                  </div>
+                
                   <a href="meeting-details.html"><h4>Digital Marketing </h4></a>
                   <p>SEO/SMO<br>Content Marketing<br>Posting<br>Social Media Marketing<br>Email Marketing </p>
                 </div>
@@ -184,15 +172,11 @@
             <div class="col-lg-6">
               <div class="meeting-item">
                 <div class="thumb">
-                  <div class="price">
-                    <span>$48.00</span>
-                  </div>
+
                   <a href="meeting-details.html"><img src="{{url('frontend/images/meeting-04.jpg')}}" alt="Student Training"></a>
                 </div>
                 <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>30</span></h6>
-                  </div>
+                 
                   <a href="meeting-details.html"><h4>Student Training/Internship </h4></a>
                   <p>Online/Offline training <br>3 Month | 6 Month Internship</p>
                 </div>
@@ -246,7 +230,7 @@
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>HTML CSS Bootstrap Layout</span>
+                    <span>Services & Quality </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -260,7 +244,7 @@
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>Please tell your friends</span>
+                    <span>Our Satisfied clients </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -274,7 +258,7 @@
             </article>
             <article class="accordion last-accordion">
                 <div class="accordion-head">
-                    <span>Share this to your colleagues</span>
+                    <span>Share Expirence with us </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -462,7 +446,7 @@
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                      <input name="phone no." type="number" id="subject" placeholder="PHONE NO...*" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
