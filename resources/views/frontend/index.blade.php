@@ -99,35 +99,38 @@
             <h2>Services</h2>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4">    
+        <form action="home_form_service" method="POST">  
+          @csrf    
           <div class="services-form">
             <h4>Enquiry for Services </h4>
             <div class="forum">
               
-                <input class="field"name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                <input class="field"name="name" type="text" id="name" placeholder="Name" required="">
              
             </div>
             <div class="forum">
               
-              <input class="field"name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+              <input class="field"name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email" required="">
        
             </div>
             <div class="forum">
               <fieldset>
-                <input class="field"name="services" type="text" id="subject" placeholder="services...*" required="">
+                <input class="field"name="phone_no" type="number" id="subject" placeholder="Phone No." required="">
              
             </div>
-            <div class="forum" id="form-msg">
+            <div class="forum">
           
-                <textarea class="field"name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                <input class="field"name="service" type="text" id="service" placeholder="Service" required="">
              
             </div>
             
             <div class="main-button-yellow"id="btn">
-              <a href="#">Submit</a>
+              <button type="submit">Submit</button>
             </div>
-          </div>
-        </div>
+            </div>      
+            </form>       
+      </div>      
         <div class="col-lg-8">
           <div class="row">
             <div class="col-lg-6">
@@ -429,34 +432,40 @@
         <div class="col-lg-9 align-self-center">
           <div class="row">
             <div class="col-lg-12">
-              <form id="contact" action="" method="post">
+              <form id="contact" action="home_form_course" method="post">
+                @csrf
                 <div class="row">
                   <div class="col-lg-12">
                     <h2>Let's get in touch</h2>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                      <input name="name" type="text" id="name" placeholder="Name" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email" required="">
                   </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="phone no." type="number" id="subject" placeholder="PHONE NO...*" required="">
+                      <input name="phone_no" type="number" id="subject" placeholder="Phone No." required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <input name="qualification" type="text" id="qualification" placeholder="Qualification" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <input name="course" type="text" id="course" placeholder="Course" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                      <button type="submit" id="form-submit" class="button">SEND NOW</button>
                     </fieldset>
                   </div>
                 </div>
